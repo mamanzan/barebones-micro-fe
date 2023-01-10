@@ -29,4 +29,6 @@ There are 4 projects in this repository:
    - From the root, navigate to the container project `cd .\container\`
      - Run `npm start`
 
-After the container finishes starting up you you be able to access the `localhost:8080` from your browser to see everything put together
+After the container finishes starting up you will be able to access the `localhost:8080` from your browser to see everything put together
+
+![Ouput](assets/Output.PNG)
