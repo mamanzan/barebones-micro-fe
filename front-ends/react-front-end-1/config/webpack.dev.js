@@ -17,9 +17,6 @@ const devConfig = {
       exposes: {
         "./App": "./src/App",
       },
-      remotes: {
-        Shared: "Shared@http://localhost:8083/remoteEntry.js",
-      },
       shared: {
         ...dependencies,
         react: {
