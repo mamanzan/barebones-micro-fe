@@ -4,11 +4,8 @@ import { About } from "./components/About";
 import { Home } from "./components/Home";
 import { NavLinks } from "./components/NavLinks";
 import { Layout } from "./components/Layout";
-//const { App: ReactFe1App } = React.lazy(() => import("ReactFe1/App"));
-//import { ReactFe1App } from "ReactFe2/App";
 const ReactFe1App = React.lazy(() => import("ReactFe1/App"));
 const ReactFe2App = React.lazy(() => import("ReactFe2/App"));
-//const { App: ReactFe2App } = React.lazy(() => import("ReactFe2/App"));
 
 const App = () => (
   <>

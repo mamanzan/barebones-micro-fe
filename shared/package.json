@@ -2,10 +2,12 @@
   "name": "shared",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "types": "dist/.index.d.ts",
+  "main": "dist/.index",
   "scripts": {
     "build": "webpack --config=config/webpack.prod.js",
-    "start": "webpack serve --config=config/webpack.dev.js"
+    "start": "webpack serve --config=config/webpack.dev.js",
+    "build-ts": "tsc"
   },
   "keywords": [],
   "author": "",
