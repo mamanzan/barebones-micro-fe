@@ -1,5 +1,5 @@
 import { Link, Route, Routes } from "react-router-dom";
-import { VegetableButton } from "Shared/Components";
+import { VegetableButton } from "shared";
 
 export const App = () => {
   return (

@@ -23,7 +23,6 @@ const devConfig = {
       remotes: {
         ReactFe1: "ReactFe1@http://localhost:8081/remoteEntry.js",
         ReactFe2: "ReactFe2@http://localhost:8082/remoteEntry.js",
-        Shared: "Shared@http://localhost:8083/remoteEntry.js",
       },
       shared: {
         ...dependencies,
