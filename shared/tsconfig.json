@@ -16,6 +16,7 @@
   "include": [
     "src/components/*.tsx",
     "src/components/*.ts",
-    "src/components/.index.ts"
+    "src/components/.index.ts",
+    "src/components/atoms/VegetableButton.tsx"
   ]
 }

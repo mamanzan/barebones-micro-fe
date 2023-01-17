@@ -1,5 +1,6 @@
-import FruitButton from "./components/FruitButton";
-import VegetableButton from "./components/VegetableButton";
+import React from "react";
+import FruitButton from "./components/atoms/FruitButton";
+import VegetableButton from "./components/atoms/VegetableButton";
 
 export const App = () => {
   return (
